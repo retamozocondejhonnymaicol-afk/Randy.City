@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+<link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon.png">
+  <link rel="shortcut icon" href="icon.png">
+
+  <!-- ICONO PARA CELULAR (acceso directo) -->
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon.png">
+
+  <!-- Para que parezca APP -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#a020f0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+ 
  <meta name="google-site-verification" content="-vWIvxJYQ5mdsU36fHtf-e9Sl6Juj-KZBED51J9Zc1Q" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Randy.City</title>
 <style>
+
+json{
+  "name": "Randy City",
+  "short_name": "Randy City",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#a020f0",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+ 
   * { box-sizing: border-box; }
   html, body {
     margin: 0;
